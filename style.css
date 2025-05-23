@@ -1,0 +1,620 @@
+body{
+border-left: 20px solid grey;
+border-right: 20px solid grey;
+border-bottom: 5px solid grey;
+margin: 0px;
+padding: 0px;
+
+
+} 
+ .header{
+    display: flex;
+    justify-content: space-between;
+}
+.hr-1{
+     
+    border: 2px solid grey;
+}
+.text-1{
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: rgb(133, 25, 25);
+    margin-bottom: -6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-2{
+    font-size: 46px;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -2px;
+    
+}
+.text-3{
+    font-size: 17px;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -32px;
+    letter-spacing: 2px;
+}
+.div-2{
+    padding: 0px 50px 0px 0px;
+}
+.nav-bar{
+    background-color: rgb(139, 31, 31);
+    height: 62px;
+    margin-top: -20px;
+    
+}
+.home{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    
+    
+   
+}
+.home-1 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 95px;
+    display: block;
+    padding: 20px 5px 15px 3px ;
+    
+    
+}
+.home-1 a:hover:not(.active){
+    background-color: gray;
+}
+.home-1{
+    float: right;
+    padding: 0px 50px 0px 0px;
+    margin-left: -100px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-body{
+    display: flex;
+}
+.img-1{
+    padding: 40px 0px 0px 25px;
+    
+}
+.img-2{
+    padding: 40px 0px 0px 19px;
+}
+.ques{
+    position: relative;
+    /* text-align: center; */
+}
+.q-1{
+    position: absolute;
+  bottom: 354px;
+  background-color: rgb(165, 41, 41);
+  height: 50px;
+  width: 200PX;
+  align-content: center;
+  padding: 0px 0px 0px 10px;
+  color: white;
+}
+.Have{
+position: absolute;
+bottom: 350px;
+left: 225px;
+font-size: 23px;
+font-family:   sans-serif;
+font-weight: bold;
+
+}
+.question{
+    position: absolute;
+    bottom: 348px;
+    left: 310px;
+    font-family: 'Times New Roman', Times, serif ;
+    font-weight: bolder;
+    font-size: 35px;
+    color: rgb(32, 32, 91);
+
+}
+.case{
+
+    position: absolute;
+    bottom: 320px;
+    left: 230px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: bold
+}
+.statement{
+    position: absolute;
+    bottom: 225px;
+    left: 799px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.no-1{
+    position: absolute;
+    bottom: 228px;
+    left: 1090px;
+    font-size: 17px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div{
+    position: absolute;
+    bottom: 200px;
+    left: 830px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.divv{
+    position: absolute;
+    bottom: 165px;
+    left: 826px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.divvv{
+    position: absolute;
+    bottom: 132px;
+    left: 820px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.diss{
+    position: absolute;
+    bottom: 32px;
+    left: 820px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+   
+}
+.button-1{
+    position: absolute;
+    bottom: -30px;
+    left: 962px;
+    height: 50px;
+    width: 300px;
+    font-size: 16px;
+    background-color: rgb(187, 14, 14);
+    font-family:  sans-serif;
+    font-weight: 600;
+    color: white;
+    border: 2px solid rgb(187, 14, 14);
+}
+.confidential{
+    position: absolute;
+    bottom: 20px;
+    left: 270px;
+    height: 45px;
+    transform: rotate(18deg);
+    
+}
+.gur{
+    position: absolute;
+    bottom: -160px;
+    left: -29px;
+    font-size: 14px;
+    font-family: cursive;  
+    opacity: 0.7;
+}
+.full{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px 0px 45px;
+}
+.mainpart1{
+padding: 0px 0px 0px 30px;
+}
+.charged{
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.dui{
+     font-size: 23px;
+    padding: 0px 0px 0px 211px;
+    margin-top: -45px;
+    font-weight: bolder;
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.case-1{
+    color: brown;
+    margin-top: -12px;
+    font-size: 18px;
+    font-family:  Tahoma, sans-serif;
+}
+.text-01{
+    font-size: 16px;
+    font-family:  Tahoma, sans-serif;
+    margin-top: -10px;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+.imgtext{
+    display: flex;
+   
+}
+.image-01{
+    padding: 0px 0px 0px 35px;
+}
+.main2{
+padding: 0px 0px 0px 40px;
+
+
+}
+.law{
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.blog{
+    font-size: 23px;
+    padding: 0px 0px 0px 65px;
+    margin-top: -46px;
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text-02{
+    font-size: 16px;
+    font-family:  Tahoma, sans-serif;
+    margin-top: -25px;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+.imgtext2{
+    display: flex;
+   
+}
+.img-02{
+    padding: 0px 0px 0px 60px;
+    margin-top: -45px;
+}
+.imgtext3{
+    display: flex;
+}
+.case01{
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.results{
+    font-size: 23px;
+    padding: 0px 0px 0px 70px;
+    margin-top: -45px;
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text2{
+    font-size: 15px;
+    font-family:  Tahoma, sans-serif;
+    margin-top: -25px;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+.img-03{
+    padding: 0px 0px 0px 10px;
+    margin-top: -45px;
+}
+.bothimg{
+    display: flex;
+}
+.cret{
+  font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.cred{
+     font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -18px;
+    color: brown;
+    
+}
+.textlast{
+    font-size: 15px;
+    font-family:  Tahoma, sans-serif;
+    margin-top: -10px;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+.button-01{
+    position: relative;
+    border: 2px;
+    left: 140px;
+    bottom: 20px;
+    height: 25px;
+    width: 120px;
+    font-size: 13px;
+    font-family:   sans-serif;
+    background: rgb(165, 15, 15);
+    color: white;
+}
+.hr1{ width: 180px;
+    position: relative;
+    bottom: 10px;
+    left: 25px;
+
+}
+.i1{
+    padding: 0px 0px 0px 10px;
+}
+.button-02{
+     height: 25px;
+    width: 120px;
+     position: relative;
+    border: 2px;
+    font-size: 13px;
+    font-family:   sans-serif;
+    background: rgb(165, 15, 15);
+    color: white;
+    left: 70px;
+}
+.hr2{
+    width: 199px;
+    position: relative;
+    top: 10px;
+    right: 80px;
+
+}
+.button-03{
+    height: 25px;
+    width: 120px;
+     position: relative;
+    border: 2px;
+    font-size: 13px;
+    font-family:   sans-serif;
+    background: rgb(165, 15, 15);
+    color: white;
+    left: 70px;
+    top: -20px;
+}
+.hr3{
+    width: 199px;
+    position: relative;
+    top: -10px;
+    right: 80px;
+
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    border-left: 20px solid grey;
+border-right: 20px solid grey;
+border-bottom: 5px solid grey;
+margin: 0px;
+padding: 0px;
+
+  }
+}
+.mainhalf2{
+    padding: 10px 0px 0px 0px;
+}
+.last{
+    padding: 0px 80px 0px 0px;
+    margin-top: 20px;
+}
+
+.bothimg{
+    gap: 30px;
+}
+.lastbtn{
+     height: 25px;
+    width: 120px;
+     position: relative;
+    border: 2px;
+    font-size: 13px;
+    font-family:   sans-serif;
+    background: rgb(165, 15, 15);
+    color: white;
+    left: 130px;
+    
+}
+.hr4{
+    width: 199px;
+    position: relative;
+    top: 10px;
+    left: 35px;
+}
+.hr09{
+height: 309px; position: relative;
+top: 17px;
+left: 21px;
+opacity: 0.4;
+}
+.hr08{
+ position: relative;
+top: 18px;
+left: -35px;
+width: 439px;
+opacity: 0.4;
+}
+.hr07{
+height: 320px;
+ position: relative;
+top: 10px;
+left: -51px;
+opacity: 0.4;
+}
+.foot{
+    padding: 30px 0px 0px 0px;
+    display: flex;
+   justify-content: space-evenly;
+    
+}
+
+.practices{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px 0px 0px 50px;
+}
+.areas{
+    padding: 0px 0px 0px 199px;
+     font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -49px;
+    color: brown;
+    
+}
+.imgandmenu{
+    display: flex;
+    padding: 0px 0px 15px 0px;
+   
+}
+.pic1{
+    padding: 0px 0px 0px 36px;
+    width: 12px;
+    height: 75px;
+}
+.box{
+    height: 75px;
+    width: 285px;
+    background: gray;
+    display: flex;
+    color: white;
+    font-size: 13px;
+    
+    
+    
+}
+.textt{
+    padding: 0px 0px 0px 10px;
+}
+.btn04{
+    margin-top: 50px;
+    margin-left: 70px;
+    background: gray;
+    border: 1PX;
+    color: white;
+    font-size: 11px;
+    font-family:  sans-serif;
+    font-weight: 600;
+
+}
+.btn05{
+    margin-top: 50px;
+    margin-left: -22px;
+    background: gray;
+    border: 1PX;
+    color: white;
+    font-size: 11px;
+    font-family:  sans-serif;
+    font-weight: 600;
+
+}
+.btn06{
+    margin-top: 50px;
+    margin-left: -20px;
+    background: gray;
+    border: 1PX;
+    color: white;
+    font-size: 11px;
+    font-family:  sans-serif;
+    font-weight: 600;
+
+}
+.btn07{
+    margin-top: 52px;
+    margin-left: -33px;
+    background: gray;
+    border: 1PX;
+    color: white;
+    font-size: 11px;
+    font-family:  sans-serif;
+    font-weight: 600;
+
+}
+.text-098{
+    padding: 40px 0px 0px 50px;
+    font-family:  Tahoma, sans-serif;
+}
+.menuarea{
+    padding: 70px 0px 0px 140px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    opacity: 0.3;
+    
+}
+
+.cli{
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+.testi{
+       font-size: 23px;
+    margin-top: -13px;
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.article{
+    padding: 0px 0px 0px 40px
+
+}
+.ptag{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    opacity: 0.7;
+    line-height: 30px;
+}
+
+.aside-b-main{
+        margin: 0px 10px 0px 0px
+}
+.ptagg{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    
+}
+.btnm{
+    height: 22px;
+    width: 110px;
+    margin: 0px 0px 0px 50px;
+    background-color: rgb(163, 15, 15);
+    font-family: Tahoma, sans-serif;
+    color: white;
+    border: 1px;
+    
+}
+.btnnj{
+    margin-top: -9px;
+}
+.her{
+        margin: 0px 0px 8px 5px;
+    width: 170px;
+}
+.rep{
+     font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -45px;
+    padding: 0px 0px 0px 72px;
+}
+.repr{
+     font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -45px;
+    padding: 0px 0px 0px 65px;
+}.imgi{
+    padding: 40px 0px 0px 40px;
+}
+.imgo{
+    padding: 30px 0px 0px 55px;
+}
+.texty{
+    font-size: 15px;
+    padding: 10px 0px 0px 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.heret{
+    margin-top: 10px;
+}
+.imgj{
+    margin-top: -15px;
+}
+.main-last-icon{
+    padding: 10px 0px 0px 38px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 15px;
+}
+.lastimgn{
+        margin: 0px 0px -4px 0px;
+    padding: 100px 0px 0px 0px;
+}
