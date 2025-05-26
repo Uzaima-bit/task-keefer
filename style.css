@@ -73,41 +73,44 @@ padding: 0px;
 }
 .main-body{
     display: flex;
+    justify-content: space-between;
+    
 }
 .img-1{
     padding: 40px 0px 0px 25px;
     
 }
 .img-2{
-    padding: 40px 0px 0px 19px;
+    margin-right: 40px;
+    margin-top: 40px;
+    background-image: url(keefer/form_bg.jpg) ;
+   height: 400px;
+   width: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .ques{
-    position: relative;
-    /* text-align: center; */
-}
+    
+    text-align: center;
+}  
 .q-1{
-    position: absolute;
-  bottom: 354px;
   background-color: rgb(165, 41, 41);
   height: 50px;
   width: 200PX;
   align-content: center;
-  padding: 0px 0px 0px 10px;
+  margin-top: -0px;
   color: white;
 }
 .Have{
-position: absolute;
-bottom: 350px;
-left: 225px;
+    margin-top: -50px;
 font-size: 23px;
 font-family:   sans-serif;
 font-weight: bold;
 
 }
 .question{
-    position: absolute;
-    bottom: 348px;
-    left: 310px;
+    margin-top: -60px;
+    padding: 0px 0px 0px 270px;
     font-family: 'Times New Roman', Times, serif ;
     font-weight: bolder;
     font-size: 35px;
@@ -115,61 +118,47 @@ font-weight: bold;
 
 }
 .case{
-
-    position: absolute;
-    bottom: 320px;
-    left: 230px;
+    padding: 0px 0px 0px 120px;
+    margin-top: -20px;
     font-size: 22px;
     font-family: sans-serif;
     font-weight: bold
 }
 .statement{
-    position: absolute;
-    bottom: 225px;
-    left: 799px;
+    padding: 0px 10px 0px 10px;
     font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 .no-1{
-    position: absolute;
-    bottom: 228px;
-    left: 1090px;
+    padding: 0px 0px 0px 305px;
+    margin-top: -37px;
     font-size: 17px;
     font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .div{
-    position: absolute;
-    bottom: 200px;
-    left: 830px;
+    padding: 0px 0px 0px 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .divv{
-    position: absolute;
-    bottom: 165px;
-    left: 826px;
+    padding: 10px 0px 0px 36px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .divvv{
-    position: absolute;
-    bottom: 132px;
-    left: 820px;
+    padding: 10px 0px 0px 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .diss{
-    position: absolute;
-    bottom: 32px;
-    left: 820px;
+    margin-top: 55px;
+    margin-left: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 17px;
     font-weight: 600;
    
 }
 .button-1{
-    position: absolute;
-    bottom: -30px;
-    left: 962px;
+    margin-left: 170px;
     height: 50px;
     width: 300px;
     font-size: 16px;
@@ -180,28 +169,28 @@ font-weight: bold;
     border: 2px solid rgb(187, 14, 14);
 }
 .confidential{
-    position: absolute;
-    bottom: 20px;
-    left: 270px;
-    height: 45px;
+    margin-top:-90px;
+    padding: 0px 0px 0px 300px;
+    height: 55px;
     transform: rotate(18deg);
     
 }
 .gur{
-    position: absolute;
-    bottom: -160px;
-    left: -29px;
-    font-size: 14px;
+    padding: 0px 0px 0px 10px;
+    margin-top:  -40px;
+    font-size: 13px;
     font-family: cursive;  
     opacity: 0.7;
-}
+}  
 .full{
     display: flex;
+    
     justify-content: space-between;
     padding: 50px 0px 0px 45px;
 }
 .mainpart1{
-padding: 0px 0px 0px 30px;
+padding: 0px 43px 0px 30px;
+
 }
 .charged{
     font-size: 23px;
@@ -237,7 +226,9 @@ padding: 0px 0px 0px 30px;
     padding: 0px 0px 0px 35px;
 }
 .main2{
-padding: 0px 0px 0px 40px;
+padding: 0px 28px 0px 25px;
+
+
 
 
 }
@@ -376,21 +367,43 @@ padding: 0px 0px 0px 40px;
   body {
     background-color: lightblue;
     border-left: 20px solid grey;
-border-right: 20px solid grey;
-border-bottom: 5px solid grey;
-margin: 0px;
-padding: 0px;
+    border-right: 20px solid grey;
+    border-bottom: 5px solid grey;
+    margin: 0%;
+    padding: 0%;
 
   }
 }
+.mainhalf1{
+   padding: 0px 0px 10px 0px;
+}
 .mainhalf2{
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 35px 0px;
+    
 }
 .last{
-    padding: 0px 80px 0px 0px;
+    padding: 0px 80px 0px 70px;
     margin-top: 20px;
+ 
 }
-
+.hfg{
+    border-right: 2px solid;
+    margin-top: 20px;
+    height: 330px;
+    opacity: 0.1;
+}
+.hfh{
+    border-top: 2px solid;
+    margin-top: 15px;
+    opacity: 0.1;
+    
+}
+.hfj{
+    border-left: 2px solid;
+    margin-top: 20px;
+    height: 330px;
+    opacity: 0.1;
+}
 .bothimg{
     gap: 30px;
 }
@@ -617,4 +630,7 @@ opacity: 0.4;
 .lastimgn{
         margin: 0px 0px -4px 0px;
     padding: 100px 0px 0px 0px;
+}
+.wrap{
+    flex-wrap: wrap;
 }
