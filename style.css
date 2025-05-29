@@ -1,581 +1,631 @@
-body{
-border-left: 20px solid grey;
-border-right: 20px solid grey;
-border-bottom: 5px solid grey;
-margin: 0px;
-padding: 0px;
+body {
+    border-left: 20px solid grey;
+    border-right: 20px solid grey;
+    border-bottom: 5px solid grey;
+    margin: 0px;
+    padding: 0px;
+}
 
-
-} 
- .header{
+.header {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
-.hr-1{
-     
+.po0{
+    
+}
+.hr-1 {
+
     border: 2px solid grey;
 }
-.text-1{
+
+.text-1 {
     font-size: 25px;
     letter-spacing: 1px;
     color: rgb(133, 25, 25);
     margin-bottom: -6px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.text-2{
+
+.text-2 {
     font-size: 46px;
-    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
     margin-top: -2px;
-    
+
 }
-.text-3{
+
+.text-3 {
     font-size: 17px;
-    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
     margin-top: -32px;
     letter-spacing: 2px;
 }
-.div-2{
+
+.div-2 {
     padding: 0px 50px 0px 0px;
+    
 }
-.nav-bar{
+
+.nav-bar {
     background-color: rgb(139, 31, 31);
     height: 62px;
     margin-top: -20px;
-    
+
 }
-.home{
+
+.home {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
     overflow: hidden;
-    
-    
-   
+
+
+
 }
-.home-1 a{
+
+.home-1 a {
     text-decoration: none;
     color: white;
     margin-left: 95px;
     display: block;
-    padding: 20px 5px 15px 3px ;
-    
-    
+    padding: 20px 5px 15px 3px;
+
+
 }
-.home-1 a:hover:not(.active){
+
+.home-1 a:hover:not(.active) {
     background-color: gray;
 }
-.home-1{
+
+.home-1 {
     float: right;
     padding: 0px 50px 0px 0px;
     margin-left: -100px;
     font-size: 22px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.main-body{
+
+.main-body {
     display: flex;
     justify-content: space-between;
-    
+
 }
-.img-1{
+
+.img-1 {
     padding: 40px 0px 0px 25px;
-    
+
 }
-.img-2{
+
+.img-2 {
     margin-right: 40px;
     margin-top: 40px;
-    background-image: url(keefer/form_bg.jpg) ;
-   height: 400px;
-   width: 500px;
+    background-image: url(keefer/form_bg.jpg);
+    height: auto;
+    width: 500px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.ques{
-    
+
+.ques {
+
     text-align: center;
-}  
-.q-1{
-  background-color: rgb(165, 41, 41);
-  height: 50px;
-  width: 200PX;
-  align-content: center;
-  margin-top: -0px;
-  color: white;
 }
-.Have{
+
+.q-1 {
+    background-color: rgb(165, 41, 41);
+    height: 5%;
+    width: 41%;
+    align-content: center;
+    margin-top: -0px;
+    color: white;
+}
+
+.Have {
     margin-top: -50px;
-font-size: 23px;
-font-family:   sans-serif;
-font-weight: bold;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: bold;
 
 }
-.question{
+
+.question {
     margin-top: -60px;
     padding: 0px 0px 0px 270px;
-    font-family: 'Times New Roman', Times, serif ;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-size: 35px;
     color: rgb(32, 32, 91);
 
 }
-.case{
+
+.case {
     padding: 0px 0px 0px 120px;
     margin-top: -20px;
     font-size: 22px;
     font-family: sans-serif;
     font-weight: bold
 }
-.statement{
+
+.statement {
     padding: 0px 10px 0px 10px;
     font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-.no-1{
-    padding: 0px 0px 0px 305px;
-    margin-top: -37px;
-    font-size: 17px;
-    font-size: 17px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.div{
+
+.div {
     padding: 0px 0px 0px 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.divv{
+
+.divv {
     padding: 10px 0px 0px 36px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.divvv{
+
+.divvv {
     padding: 10px 0px 0px 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.diss{
-    margin-top: 55px;
+
+.diss {
+    margin-top: 18px;
     margin-left: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Tahoma, sans-serif;
     font-size: 17px;
     font-weight: 600;
-   
+    width: 85%;
+    height: 15% ;
 }
-.button-1{
-    margin-left: 170px;
-    height: 50px;
-    width: 300px;
+
+.button-1 {
+    margin-top: 6px;
+    margin-left: 188px;
+    height: 12%;
+    width: 54%;
     font-size: 16px;
     background-color: rgb(187, 14, 14);
-    font-family:  sans-serif;
+    font-family: sans-serif;
     font-weight: 600;
     color: white;
     border: 2px solid rgb(187, 14, 14);
 }
-.confidential{
-    margin-top:-90px;
-    padding: 0px 0px 0px 300px;
-    height: 55px;
-    transform: rotate(18deg);
-    
-}
-.gur{
-    padding: 0px 0px 0px 10px;
-    margin-top:  -40px;
-    font-size: 13px;
-    font-family: cursive;  
-    opacity: 0.7;
-}  
-.full{
+
+.confi {
     display: flex;
-    
+}
+
+.confidential {
+
+    padding: 20px 0px 0px 15px;
+    transform: rotate(13deg);
+
+}
+
+.gur {
+    padding: 0px 0px 0px 10px;
+    margin-top: -40px;
+    font-size: 13px;
+    font-family: cursive;
+    opacity: 0.7;
+}
+
+.full {
+    display: flex;
+
     justify-content: space-between;
     padding: 50px 0px 0px 45px;
 }
-.mainpart1{
-padding: 0px 43px 0px 30px;
+
+.mainpart1 {
+    padding: 0px 43px 0px 30px;
 
 }
-.charged{
+
+.charged {
     font-size: 23px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
 }
-.dui{
-     font-size: 23px;
+
+.dui {
+    font-size: 23px;
     padding: 0px 0px 0px 211px;
     margin-top: -45px;
     font-weight: bolder;
     color: brown;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.case-1{
+
+.case-1 {
     color: brown;
     margin-top: -12px;
     font-size: 18px;
-    font-family:  Tahoma, sans-serif;
+    font-family: Tahoma, sans-serif;
 }
-.text-01{
+
+.text-01 {
     font-size: 16px;
-    font-family:  Tahoma, sans-serif;
+    font-family: Tahoma, sans-serif;
     margin-top: -10px;
     letter-spacing: 1px;
     opacity: 0.9;
 }
-.imgtext{
+
+.imgtext {
     display: flex;
-   
+
 }
-.image-01{
+
+.image-01 {
     padding: 0px 0px 0px 35px;
 }
-.main2{
-padding: 0px 28px 0px 25px;
 
-
-
+.main2 {
+    padding: 0px 28px 0px 25px;
 
 }
-.law{
+
+.law {
     font-size: 23px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.blog{
+
+.blog {
     font-size: 23px;
     padding: 0px 0px 0px 65px;
     margin-top: -46px;
     color: brown;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.text-02{
+
+.text-02 {
     font-size: 16px;
-    font-family:  Tahoma, sans-serif;
+    font-family: Tahoma, sans-serif;
     margin-top: -25px;
     letter-spacing: 1px;
     opacity: 0.9;
 }
-.imgtext2{
+
+.imgtext2 {
     display: flex;
-   
+
 }
-.img-02{
+
+.img-02 {
     padding: 0px 0px 0px 60px;
     margin-top: -45px;
 }
-.imgtext3{
+
+.imgtext3 {
     display: flex;
 }
-.case01{
+
+.case01 {
     font-size: 23px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.results{
+
+.results {
     font-size: 23px;
     padding: 0px 0px 0px 70px;
     margin-top: -45px;
     color: brown;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.text2{
+
+.text2 {
     font-size: 15px;
-    font-family:  Tahoma, sans-serif;
+    font-family: Tahoma, sans-serif;
     margin-top: -25px;
     letter-spacing: 1px;
     opacity: 0.9;
 }
-.img-03{
+
+.img-03 {
     padding: 0px 0px 0px 10px;
     margin-top: -45px;
 }
-.bothimg{
+
+.bothimg {
     display: flex;
 }
-.cret{
-  font-size: 23px;
+
+.cret {
+    font-size: 23px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
-.cred{
-     font-size: 23px;
+
+.cred {
+    font-size: 23px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: -18px;
     color: brown;
-    
+
 }
-.textlast{
+
+.textlast {
     font-size: 15px;
-    font-family:  Tahoma, sans-serif;
+    font-family: Tahoma, sans-serif;
     margin-top: -10px;
     letter-spacing: 1px;
     opacity: 0.9;
 }
-.button-01{
-    position: relative;
+
+.button-01 {
+    margin-top: -20px;
     border: 2px;
-    left: 140px;
-    bottom: 20px;
-    height: 25px;
-    width: 120px;
+    margin-left: 140px;
+    height: 7%;
+    width: auto;
     font-size: 13px;
-    font-family:   sans-serif;
+    font-family: sans-serif;
     background: rgb(165, 15, 15);
     color: white;
 }
-.hr1{ width: 180px;
-    position: relative;
-    bottom: 10px;
-    left: 25px;
+
+.hr1 {
+    width: 180px;
+    margin-bottom: 2px;
+    margin-right: 52px;
 
 }
-.i1{
+
+.i1 {
     padding: 0px 0px 0px 10px;
 }
-.button-02{
-     height: 25px;
-    width: 120px;
-     position: relative;
+
+.button-02 {
+    height: 25px;
+    width: auto;
+    margin-left: 60px;
     border: 2px;
     font-size: 13px;
-    font-family:   sans-serif;
+    font-family: sans-serif;
     background: rgb(165, 15, 15);
     color: white;
     left: 70px;
 }
-.hr2{
-    width: 199px;
-    position: relative;
-    top: 10px;
-    right: 80px;
 
+.hr2 {
+    width: 45%;
+    margin-bottom: -1px;
+    margin-left: 15px;
 }
-.button-03{
+
+.button-03 {
     height: 25px;
-    width: 120px;
-     position: relative;
+    width: auto;
+    margin-left: 70px;
     border: 2px;
     font-size: 13px;
-    font-family:   sans-serif;
+    font-family: sans-serif;
     background: rgb(165, 15, 15);
     color: white;
     left: 70px;
     top: -20px;
 }
-.hr3{
-    width: 199px;
-    position: relative;
-    top: -10px;
-    right: 80px;
+
+.hr3 {
+    width: 45%;
+    margin-bottom: -1px;
+    margin-left: 25px;
 
 }
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-    border-left: 20px solid grey;
-    border-right: 20px solid grey;
-    border-bottom: 5px solid grey;
-    margin: 0%;
-    padding: 0%;
 
-  }
+
+
+.mainhalf1 {
+    padding: 0px 0px 10px 0px;
 }
-.mainhalf1{
-   padding: 0px 0px 10px 0px;
-}
-.mainhalf2{
+
+.mainhalf2 {
     padding: 10px 0px 35px 0px;
-    
+
 }
-.last{
-    padding: 0px 80px 0px 70px;
+
+.last {
+    padding: 0px 80px 0px 45px;
     margin-top: 20px;
- 
+
 }
-.hfg{
+
+.hfg {
     border-right: 2px solid;
     margin-top: 20px;
     height: 330px;
     opacity: 0.1;
+    margin-right: -6px;
 }
-.hfh{
+
+.hfh {
     border-top: 2px solid;
     margin-top: 15px;
     opacity: 0.1;
-    
+    width: 433px;
+    margin-left: -31px;
+
 }
-.hfj{
+
+.hfj {
     border-left: 2px solid;
     margin-top: 20px;
     height: 330px;
     opacity: 0.1;
+    margin-left: -41px;
 }
-.bothimg{
+
+.bothimg {
     gap: 30px;
 }
-.lastbtn{
-     height: 25px;
-    width: 120px;
-     position: relative;
+
+.lastbtn {
+    height: 25px;
+    width: auto;
+    margin-left: 90px;
     border: 2px;
     font-size: 13px;
-    font-family:   sans-serif;
+    font-family: sans-serif;
     background: rgb(165, 15, 15);
     color: white;
     left: 130px;
-    
-}
-.hr4{
-    width: 199px;
-    position: relative;
-    top: 10px;
-    left: 35px;
-}
-.hr09{
-height: 309px; position: relative;
-top: 17px;
-left: 21px;
-opacity: 0.4;
-}
-.hr08{
- position: relative;
-top: 18px;
-left: -35px;
-width: 439px;
-opacity: 0.4;
-}
-.hr07{
-height: 320px;
- position: relative;
-top: 10px;
-left: -51px;
-opacity: 0.4;
-}
-.foot{
-    padding: 30px 0px 0px 0px;
-    display: flex;
-   justify-content: space-evenly;
-    
+
 }
 
-.practices{
+.hr4 {
+    width: 65%;
+    margin-bottom: -1px;
+
+}
+
+
+.foot {
+    padding: 30px 0px 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.practices {
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0px 0px 0px 50px;
 }
-.areas{
+
+.areas {
     padding: 0px 0px 0px 199px;
-     font-size: 25px;
+    font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: -49px;
     color: brown;
-    
+
 }
-.imgandmenu{
+
+.imgandmenu {
     display: flex;
     padding: 0px 0px 15px 0px;
-   
+
 }
-.pic1{
+
+.pic1 {
     padding: 0px 0px 0px 36px;
     width: 12px;
     height: 75px;
 }
-.box{
+
+.box {
     height: 75px;
     width: 285px;
     background: gray;
     display: flex;
     color: white;
     font-size: 13px;
-    
-    
-    
+
+
+
 }
-.textt{
+
+.textt {
     padding: 0px 0px 0px 10px;
 }
-.btn04{
+
+.btn04 {
     margin-top: 50px;
     margin-left: 70px;
     background: gray;
     border: 1PX;
     color: white;
     font-size: 11px;
-    font-family:  sans-serif;
+    font-family: sans-serif;
     font-weight: 600;
 
 }
-.btn05{
+
+.btn05 {
     margin-top: 50px;
     margin-left: -22px;
     background: gray;
     border: 1PX;
     color: white;
     font-size: 11px;
-    font-family:  sans-serif;
+    font-family: sans-serif;
     font-weight: 600;
 
 }
-.btn06{
+
+.btn06 {
     margin-top: 50px;
     margin-left: -20px;
     background: gray;
     border: 1PX;
     color: white;
     font-size: 11px;
-    font-family:  sans-serif;
+    font-family: sans-serif;
     font-weight: 600;
 
 }
-.btn07{
+
+.btn07 {
     margin-top: 52px;
     margin-left: -33px;
     background: gray;
     border: 1PX;
     color: white;
     font-size: 11px;
-    font-family:  sans-serif;
+    font-family: sans-serif;
     font-weight: 600;
 
 }
-.text-098{
+
+.text-098 {
     padding: 40px 0px 0px 50px;
-    font-family:  Tahoma, sans-serif;
+    font-family: Tahoma, sans-serif;
 }
-.menuarea{
+
+.menuarea {
     padding: 70px 0px 0px 140px;
     font-family: 'Arial Narrow Bold', sans-serif;
     opacity: 0.3;
-    
+
 }
 
-.cli{
+.cli {
     font-size: 23px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+
 
 }
-.testi{
-       font-size: 23px;
+
+.testi {
+    font-size: 23px;
     margin-top: -13px;
     color: brown;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.article{
-    padding: 0px 0px 0px 40px
 
+.article {
+    padding: 0px 0px 0px 40px
 }
-.ptag{
+
+.ptag {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     opacity: 0.7;
     line-height: 30px;
 }
 
-.aside-b-main{
-        margin: 0px 10px 0px 0px
+.aside-b-main {
+    margin: 0px 10px 0px 0px
 }
-.ptagg{
+
+.ptagg {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    
+
 }
-.btnm{
+
+.btnm {
     height: 22px;
     width: 110px;
     margin: 0px 0px 0px 50px;
@@ -583,54 +633,233 @@ opacity: 0.4;
     font-family: Tahoma, sans-serif;
     color: white;
     border: 1px;
-    
+
 }
-.btnnj{
+
+.btnnj {
     margin-top: -9px;
 }
-.her{
-        margin: 0px 0px 8px 5px;
+
+.her {
+    margin: 0px 0px 8px 5px;
     width: 170px;
 }
-.rep{
-     font-size: 23px;
+
+.rep {
+    font-size: 23px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: -45px;
     padding: 0px 0px 0px 72px;
 }
-.repr{
-     font-size: 23px;
+
+.repr {
+    font-size: 23px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: -45px;
     padding: 0px 0px 0px 65px;
-}.imgi{
+}
+
+.imgi {
     padding: 40px 0px 0px 40px;
 }
-.imgo{
+
+.imgo {
     padding: 30px 0px 0px 55px;
 }
-.texty{
+
+.texty {
     font-size: 15px;
     padding: 10px 0px 0px 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
-.heret{
+
+.heret {
     margin-top: 10px;
 }
-.imgj{
+
+.imgj {
     margin-top: -15px;
 }
-.main-last-icon{
+
+.main-last-icon {
     padding: 10px 0px 0px 38px;
     display: flex;
     /* justify-content: space-evenly; */
     gap: 15px;
 }
-.lastimgn{
-        margin: 0px 0px -4px 0px;
+
+.lastimgn {
+    margin: 0px 0px -4px 0px;
     padding: 100px 0px 0px 0px;
 }
-.wrap{
-    flex-wrap: wrap;
+
+@media (max-width:1320px){
+    .main-body,.img-1, .full, .foot{
+        flex-direction: column;
+        width: 80%;
+    }
+    .img-01{
+        height: 180px;
+    }
+    .img-2{
+        height: 450px;
+        width: 113%;
+        margin-left: 22px;
+        margin-top: 20px;
+        
+    }
+    .img-02{
+        height: 85px;
+    }
+    .img-03{
+        height: 120px;
+    }
+    .div-2[
+        
+    ]
+    .header{
+        
+        width: 90px;
+        
+    }
+    .po1{
+        width: 290px;
+        height: 100px;
+      
+    }
+    .text-1, .hr-1, .text-3 {
+        width: 190px;
+        
+        font-size: 14px;
+    }
+    .text-3{
+        margin-top: -10px;
+    }
+    .text-2{
+        width: 100px;
+        font-size: 18px;
+        /* line-height: 20px; */
+    }
+    .mainpart1{
+       width: 400px;
+       margin-left: 80px;
+        
+    }
+    .button-01{
+        height: 30px;
+        width: 150px;
+        margin-left: 150px;
+        margin-top: -1px
+    }
+    .hr1{
+        
+        width: 270px;
+    }
+    .main2{
+        margin-top: -250px;
+        margin-left: 80px;
+    }
+    .last{
+        margin-top: -250px;
+        margin-left: 80px;
+        margin-bottom: 50px;
+    }
+    .class1, .imgandmenu{
+        margin-left: 140px;
+        width: 500px;
+       
+    }
+    .text-098{
+        margin-left: 120px;
+        margin-top: -30px;
+        font-size: 20px;
+    }
+    .menuarea{
+        margin-top: -40px;
+        margin-left: 145px;
+    }
+    .articlehead{
+        margin-left: 37px;
+    }
+    .ptag{
+        margin-left: 40px;
+    }
+    .aside-b-main{
+        
+        margin-left: 180px;
+    }
+    .cli, .testi{
+        font-size: 35px;
+    }
+    .ptagg{
+        font-size: 25px;
+    }
+    .btnm{
+        height: 40px;
+        width: 150px;
+        font-size: 15px;
+        
+    }
+    .rep{
+        font-size: 35px;
+        margin-top: -70px;
+        margin-left: 40px;
+        
+    }
+    .repr{
+        font-size: 35px;
+        margin-top: -70px;
+        margin-left: 35px;
+    }
+    .her{
+        width: 250px;
+    }
+    .imgi{
+        margin-left: -7px;
+        height: 150px;
+    }
+    .imgo{
+        
+        height: 150px;
+    }
+    .texty{
+        margin-left: 19px;
+        
+    }
+    .main-last-icon{
+        margin-left: 14px;
+    }
 }
+
+
+/* Responsive Styles
+@media (max-width: 768px) {
+
+    .header,margin-top: -70px;
+        margin-left: 40px;
+    .mainpart1,
+    .main2 .headinglast .foot {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-bar .home {
+        flex-direction: column;
+    }
+
+    .img-2 {
+        width: 100%;
+    }
+
+    .info-image img {
+        max-width: 100%;
+    }
+
+    .footer-box,
+    .testimonials,
+    .footer-section {
+        width: 100%;
+    }
+} */
