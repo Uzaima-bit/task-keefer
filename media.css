@@ -1,0 +1,880 @@
+@media (width<=1400px) {
+  html {
+      font-size: 62.5%;
+  }
+ 
+  .question-left p {
+      font-size: 3rem;
+  }
+ 
+  .question-right p {
+      font-size: 2.3rem;
+ 
+      &>span {
+          font-size: 3.8rem;
+      }
+  }
+ 
+  .middle-part .paragraph {
+      font-size: 1.6rem;
+  }
+  .form .form-group {
+      & label {
+          font-size: 1.2rem;
+      }
+ 
+      & div {
+          width: 100%;
+          text-align: end;
+ 
+          & input {
+              width: 78%;
+          }
+      }
+  }
+  .bottom-part {
+      & .guarantee-text {
+          font-size: 1.3rem;
+      }
+ 
+      & .guarantee-btn {
+          font-size: 1.6rem;
+      }
+  }
+ 
+  .main-heading {
+      font-size: 2.3rem;
+  }
+ 
+  .section-show p {
+      font-size: 1.5rem;
+      padding-right: 1rem;
+  }
+ 
+  .box-1 .sub-heading {
+      font-size: 1.8rem;
+      margin-top: 0.5rem;
+  }
+ 
+  .box-2 figure img {
+      width: 18rem;
+  }
+}
+ 
+@media (width<=1220px) {
+  html {
+      font-size: 56.25%;
+  }
+ 
+  .navbar ul li {
+      & a {
+          font-size: 1.5rem;
+      }
+  }
+ 
+  .question-left p {
+      font-size: 2.8rem;
+  }
+ 
+  .question-right p {
+      font-size: 1.8rem;
+ 
+      &>span {
+          font-size: 3.2rem;
+      }
+  }
+ 
+  .middle-part .paragraph {
+      font-size: 1.5rem;
+  }
+ 
+  .form {
+      gap: 1rem;
+  }
+ 
+  .form .form-group {
+      padding: 0;
+      width: 25rem;
+ 
+      & label {
+          font-size: 1rem;
+      }
+ 
+      & input {
+          padding: 0.1rem;
+      }
+  }
+ 
+  .form .confidential-img {
+      padding: .5rem;
+      width: 100%;
+      height: 90%;
+  }
+ 
+  .box-1 .container-button button {
+      margin-left: 15%;
+  }
+   .box-2--top{
+    border: hidden;
+  }
+  .box-2{
+    border: hidden;
+  }
+  .box-2 button {
+      transform: translateX(10px);
+      -webkit-transform: translateX(10px);
+      -moz-transform: translateX(10px);
+      -ms-transform: translateX(10px);
+      -o-transform: translateX(10px);
+  }
+ 
+  .box-3 .container-button .button-show {
+      width: 200px;
+ 
+      & button {
+          margin-left: 70px;
+      }
+  }
+ 
+  .testimonial .button-show button {
+      margin-left: 30%;
+  }
+ 
+  .social-links .links img {
+      width: 35px;
+  }
+}
+ 
+@media (width<=998px) {
+  html {
+      font-size: 54%;
+  }
+  main .grid-two--cols:nth-child(1) {
+      grid-template-columns: 1fr;
+  }
+ 
+  .section-left {
+      width: auto;
+      height: 500px;
+  }
+ 
+  .question-left p {
+      font-size: 4.5rem;
+  }
+ 
+  .question-right {
+      padding-top: 3rem;
+  }
+ 
+  .question-right p {
+      font-size: 3rem;
+      line-height: 4rem;
+ 
+      &>span {
+          font-size: 6rem;
+      }
+  }
+ 
+  .middle-part .paragraph {
+      font-size: 2.2rem;
+  }
+ 
+  .form .form-group {
+      width: 100%;
+ 
+      & label {
+          font-size: 1.5rem;
+      }
+  }
+ 
+  .form .confidential-img {
+      width: 70%;
+      height: auto;
+  }
+ 
+  textarea {
+      height: 10rem;
+  }
+ 
+  .bottom-part {
+      & .guarantee-text {
+          font-size: 2rem;
+      }
+ 
+      & .guarantee-btn {
+          font-size: 2.5rem;
+      }
+  }
+ 
+  .section-show .grid-three--cols {
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 2rem;
+  }
+  .section-show p {
+      font-size: 1.4rem;
+  }
+ 
+  .main-heading {
+      font-size: 2.5rem;
+  }
+ 
+  .box-1 .sub-heading {
+      font-size: 1.8rem;
+  }
+ 
+  .section-show .content .image {
+      & img {
+          /* width: 12rem; */
+          height: auto;
+      }
+  }
+  .box-1 .container-button button {
+      margin-left: 40%;
+      /* padding: 0.5rem 0.8rem; */
+      font-size: 1.2rem;
+ 
+      & img {
+          width: 0.6rem;
+      }
+  }
+ 
+  .button-show {
+      width: 60%;
+ 
+      & button {
+          width: 11rem;
+          font-size: 1.2rem;
+ 
+          & img {
+              width: 0.6rem;
+          }
+      }
+  }
+ 
+  :is(.box-2) button {
+      margin-left: 30%;
+  }
+ 
+  :is(.box-2, .box-3) button {
+      padding: 0.5rem 0.8rem;
+  }
+ 
+  .testimonial .button-show button {
+      padding: 0.5rem 0.8rem;
+  }
+ 
+  .box-2 figure img {
+      width: 80%;
+      height: auto;
+  }
+ 
+  .box-3 .certificates {
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
+ 
+      & img {
+          width: 30%;
+          height: auto;
+      }
+  }
+ 
+  .box-3 {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      margin: 0 auto;
+  }
+ 
+  .review-content .main-heading {
+      font-size: 2rem;
+  }
+ 
+  .menu-link {
+      & .image {
+          height: auto;
+          width: auto;
+      }
+ 
+      & .link-content {
+          & h3 {
+              font-size: 1.3rem;
+          }
+ 
+          & .link {
+              & a {
+                  font-size: 1.2rem;
+ 
+                  & img {
+                      width: 0.75rem;
+                  }
+              }
+          }
+      }
+  }
+  .testimonial {
+      & p {
+          font-size: 1.4rem;
+      }
+  }
+ 
+  .social-links .links img {
+      width: 30px;
+  }
+}
+ 
+@media (width<=768px) {
+ 
+  .section-left {
+      width: auto;
+      height: 400px;
+  }
+ 
+  .section-header {
+      gap: 4rem;
+ 
+      & .right-content {
+          text-align: center;
+      }
+ 
+      & .call-us {
+          font-size: 1.5rem;
+          letter-spacing: 0.3px;
+      }
+ 
+      & .number {
+          font-size: 3rem;
+          letter-spacing: 2px;
+      }
+ 
+      & .get-answer {
+          font-size: 1rem;
+          letter-spacing: 0.9px;
+          line-height: 3px;
+      }
+  }
+ 
+  .navbar ul {
+      justify-content: center;
+      gap: 0.5rem;
+  }
+  .navbar ul li a {
+      font-size: 1rem;
+  }
+  .question-left p {
+      font-size: 3rem;
+  }
+  .question-right {
+      padding-top: 1rem;
+  }
+  .question-right p {
+      padding: 0;
+      font-size: 2.8rem;
+ 
+      &>span {
+          font-size: 4rem;
+      }
+  }
+  .middle-part .paragraph {
+      font-size: 1.9rem;
+  } 
+  .form .form-group {
+      width: 100%;
+  } 
+  .form .confidential-img {
+      width: 20rem;
+      height: 8rem;
+  } 
+  .bottom-part {
+      & .guarantee-text {
+          font-size: 1.5rem;
+      } 
+      & .guarantee-btn {
+          font-size: 1.5rem;
+      }
+  }
+  .section-show .grid-three--cols {
+      grid-template-columns: 1fr;
+  }
+  .main-heading {
+      font-size: 3.8rem;
+  }
+  .box-1 .sub-heading {
+      font-size: 2.8rem;
+  }
+  .section-show p {
+      font-size: 2rem;
+      margin: 1rem 0;
+  }
+  .section-show .content .image {
+      & img {
+          width: 15rem;
+          /* height: auto; */
+          margin: 0px 70px 0px 0px ;
+      }
+  } 
+  .row {
+      row-gap: 4rem;
+  }
+  .box-1 .container-button button {
+      margin-left: 35%;
+      font-size: 2rem;
+ 
+      & img {
+          width: 1rem;
+      }
+  }
+ 
+  .button-show {
+      width: 50%;
+ 
+      & button {
+          width: 18rem;
+          font-size: 2rem;
+ 
+          & img {
+              width: 1rem;
+          }
+      }
+  }
+  .box-2 figure img {
+      width: 70%;
+      height: auto;
+  }
+ 
+  .box-2 .button-show {
+      width: 100%;
+  }
+ 
+  .box-2 button {
+      margin-left: 120px;
+  }
+ 
+  .box-3 .certificates {
+      /* justify-content: space-evenly; */
+      margin-bottom: 2rem;
+ 
+      & img {
+          width: 30%;
+          height: auto;
+      }
+  }
+ 
+  .box-3 {
+      grid-column-start: 1;
+      grid-column-end: 2;
+ 
+      & .container-button .button-show {
+          width: 300px;
+ 
+          & button {
+              margin-left: 100px;
+          }
+      }
+  }
+ 
+  .section-content .container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+  }
+ 
+  .menu {
+      order: 2;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+ 
+      & .image {
+          width: 1.5%;
+          height: auto;
+      }
+ 
+      & .link-content {
+          & h3 {
+              font-size: 2rem;
+          }
+ 
+          & .link a {
+              font-size: 1.5rem;
+ 
+              & img {
+                  width: auto;
+                  height: auto;
+              }
+          }
+      }
+ 
+      & .menu-bottom {
+          & h2 {
+              margin: 0;
+              font-size: 3.5rem;
+          }
+      }
+  }
+ 
+ 
+  .middle-content {
+      order: 1;
+ 
+      & h1 {
+          font-size: 4.5rem;
+      }
+  }
+ 
+  .testimonial {
+      order: 3;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 2rem;
+ 
+      & p {
+          font-size: 2rem;
+          line-height: 3rem;
+      }
+ 
+      & .button-show button {
+          margin-left: 40%;
+      }
+ 
+      & .certificate-image {
+          width: 60%;
+          height: auto;
+      }
+  }
+ 
+  .testimonial-bottom {
+      padding: 0 1rem;
+  }
+ 
+  .social-links .links {
+      justify-content: center;
+      gap: 2rem;
+ 
+      & img {
+          width: 100%;
+          height: auto;
+      }
+  }
+ 
+  .review-content .main-heading {
+      font-size: 3rem;
+  }
+ 
+}
+ 
+@media (width<=576px) {
+  
+ 
+  .section-header {
+      flex-direction: column;
+      padding: 0;
+      gap: 0;
+ 
+      & .logo {
+          width: 100%;
+ 
+          & img {
+              width: 100%;
+          }
+      }
+ 
+      & .right-content {
+          margin: 1rem 0;
+      }
+  }
+ 
+  .navbar ul {
+      flex-direction: column;
+ 
+      & li:nth-child(1) {
+          background-color: transparent;
+      }
+ 
+      & li {
+          text-align: center;
+ 
+          & a {
+              font-size: 1.5rem;
+          }
+      }
+  }
+ 
+  .section-left {
+      width: auto;
+      height: 350px;
+  }
+ 
+  .questions {
+      flex-direction: column;
+  }
+ 
+  .question-left p {
+      display: inline-block;
+      font-size: 3.5rem;
+  }
+ 
+  .question-right p {
+      font-size: 3rem;
+ 
+      &>span {
+          font-size: 4.2rem;
+      }
+  }
+ 
+  .middle-part .paragraph {
+      font-size: 1.6rem;
+  }
+ 
+  .form {
+      grid-template-columns: 1fr;
+ 
+      & .form-group {
+          & div {
+              width: 100%;
+              text-align: end;
+ 
+              & input {
+                  width: 80%;
+              }
+          }
+      }
+ 
+      & .confidential-img {
+          width: 80%;
+          height: auto;
+          padding: 1rem;
+      }
+  } 
+  .bottom-part {
+      justify-content: space-between;
+ 
+      & .guarantee-btn {
+          font-size: 1rem;
+ 
+          & img {
+              width: 0.6rem;
+              height: auto;
+          }
+      } 
+      & .guarantee-text {
+          font-size: 1.1rem;
+      }
+  } 
+  .section-show p {
+      font-size: 1.5rem;
+  } 
+  .main-heading {
+      font-size: 3rem;
+  } 
+  .box-1 .sub-heading {
+      font-size: 2rem;
+  }
+  .box-1 .content {
+      & .image img {
+          width: 10rem;
+          height: auto;
+      }
+  }
+  .box-1 .container-button button {
+      margin-left: 25%;
+      font-size: 1.4rem;
+ 
+      & img {
+          width: 0.8rem;
+      }
+  } 
+  .button-show {
+      & button {
+          width: 13rem;
+          font-size: 1.4rem;
+ 
+          & img {
+              width: 0.8rem;
+          }
+      }
+  }
+  .box-2 button {
+      margin-left: 50px;
+  }
+  .middle-content h1 {
+      font-size: 4rem;
+  }
+  .menu {
+      grid-template-columns: 1fr;
+      gap: 4rem;
+ 
+      & .menu-bottom {
+          & h2 {
+              font-size: 2.5rem;
+              margin-left: 13px;
+          }
+      }
+  }
+  .form {
+      & .form-group {
+          & div {
+              & input {
+                  /* margin-right: 34px; */
+                  margin-top: 3px;
+              }
+          }
+      }
+  }
+  .menu-link .link-content {
+      & h3 {
+          font-size: 2rem;
+      }
+ 
+      & .link a {
+          font-size: 1.5rem;
+ 
+          & img {
+              width: 0.9rem;
+              height: auto;
+          }
+      }
+  }
+  .social-links .links img {
+      width: 40px;
+  }
+ 
+  .testimonial {
+      grid-template-columns: 1fr;
+  }
+ 
+  .testimonial .review .button-show {
+      width: 200px;
+      float: right;
+  } 
+  .testimonial .review .button-show button {
+      margin-left: 60px;
+  }
+ 
+  .testimonial-bottom .certificate-image {
+      width: 40%;
+      height: auto;
+  }
+  .confidential-img{
+      display: none;
+  }
+  .main-heading{
+      margin-left: 0px;
+  }
+  .review-content .main-heading {
+      margin-left: 0px;
+  }
+}
+@media (width<=400px) {
+ .section-left {
+      width: auto;
+      height: 290px;
+  }
+  .question-left p {
+      font-size: 2.5rem;
+  }
+  .question-right p {
+      font-size: 2.5rem;
+      line-height: 3rem;
+      &>span {
+          font-size: 3.5rem;
+      }
+  }
+  .form {
+      & .form-group {
+          & div {
+              padding-right: 2rem;
+          }
+          & label {
+              font-size: 1rem;
+          }
+      }
+      & .confidential-img {
+          width: 100%;
+      }
+  }
+  .bottom-part {
+      flex-direction: column-reverse;
+      & .guarantee-btn {
+          font-size: 1.2rem;
+      }
+  }
+  .main-heading {
+      font-size: 2.2rem;
+  }
+  .box-1 .sub-heading {
+      font-size: 1.8rem;
+  }
+  .box-1 .container-button button {
+      margin-left: 20%;
+      font-size: 1rem;
+ 
+      & img {
+          width: 0.5rem;
+      }
+  }
+ 
+  .button-show {
+      & button {
+          width: 9.5rem;
+          font-size: 1rem;
+ 
+          & img {
+              width: 0.5rem;
+          }
+      }
+  }
+  .box-2 button {
+      transform: translateX(2px);
+      -webkit-transform: translateX(2px);
+      -moz-transform: translateX(2px);
+      -ms-transform: translateX(2px);
+      -o-transform: translateX(2px);
+  }
+  .section-show p {
+      font-size: 1.2rem;
+  }
+  .box-2 figure img {   width: 100%;
+  }
+  .box-3 .certificates img {
+      width: 40%;
+      height: auto;
+  }
+  .middle-content {
+      & h1 {
+          font-size: 2.5rem;
+      } 
+      & p {
+          font-size: 1.3rem;
+      }
+  }
+  .review-content .main-heading {
+      font-size: 2rem;
+  }
+  .menu-link .link-content {
+      & h3 {
+          font-size: 1.5rem;
+      }
+ 
+      & .link a {
+          font-size: 1.2rem;
+ 
+          & img {
+              width: 0.6rem;
+          }
+      }
+  }
+  .testimonial .review .button-show button {
+      margin-left: 70px;
+  }
+  .testimonial p {
+      font-size: 1.5rem;
+      line-height: 2rem;
+  }
+  .social-links .links {
+      justify-content: center;
+      gap: 1rem;
+      & img {
+          width: 30px;
+      }
+  }
+}
+ 
